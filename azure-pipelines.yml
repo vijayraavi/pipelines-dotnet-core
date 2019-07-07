@@ -10,6 +10,7 @@ pool:
   name: 'steam-linux'
   demands:
   - Agent.OS -equals Linux
+  - Agent.Name -equals VSTS-02
 
 variables:
   buildConfiguration: 'Release'
