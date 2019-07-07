@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: 'steam-linux'
+  demands:
+  - Agent.OS -equals Linux
 
 variables:
   buildConfiguration: 'Release'
