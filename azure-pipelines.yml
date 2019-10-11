@@ -7,10 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'steam-linux'
-  demands:
-  - Agent.OS -equals Linux
-  - Agent.Name -equals VSTS-02
+  name: 'ubuntu-latest'
 
 variables:
   buildConfiguration: 'Release'
